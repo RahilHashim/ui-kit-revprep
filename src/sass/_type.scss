@@ -5,25 +5,44 @@ html, body{
 }
 
 // Headers
-h1, h2, h3, h4, h5, h6{
+h1 h2, h3, h4 {
   font-family: $font;
-  color: $blue-dark;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 0.53em;
+  color: $black;
 }
 
-h1 { font-size: 70px; }
-h2 { font-size: 60px; }
-h3 { font-size: 50px; }
-h4 { font-size: 40px; }
-h5 { font-size: 30px; }
-h6 { font-size: 20px; }
+h1 {
+	font-family: $font;
+	color: $black;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 36px; }
+h3 { font-size: 36px; }
+h4 { font-size: 23px; }
 
 // Header Tag Classes
 .h1 { font-size: 70px; }
 .h2 { font-size: 60px; }
 .h3 { font-size: 50px; }
 .h4 { font-size: 40px; }
-.h5 { font-size: 30px; }
-.h6 { font-size: 20px; }
+
+// Paragraph 
+p {
+	font-family: $font;
+	font-size: 20px;
+}
+
+// Footnotes, Captions, Breadcrumbs, Lorem 
+.note { font-size: 12px; }
+
+// Link 
+a {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: $font;
+	color: $orange;
+}
+// Link Hover
+a:hover {
+	background-color: $medium-orange;
+}
