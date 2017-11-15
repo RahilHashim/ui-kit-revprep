@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.0.2/libexec/bin/yarn.js add laravel-mix
+
+PATH: 
+  /Applications/MAMP/bin/php/php7.1.8/bin::/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.0.2
+
+Node version: 
+  6.9.5
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "ui-kit-revprep",
+    "version": "1.0.2",
+    "description": "ui-kit",
+    "main": "app.js",
+    "repository": "https://github.com/RahilHashim/ui-kit-revprep.git",
+    "author": "Rahil Hashim <Rahil323@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "dev": "npm run development",
+      "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "watch-poll": "npm run watch -- --watch-poll",
+      "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "prod": "npm run production",
+      "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/Rahil323/Build/ui-kit-revprep/package.json: Unexpected token } in JSON at position 1070
+      at Object.parse (native)
+      at /usr/local/Cellar/yarn/1.0.2/libexec/lib/cli.js:797:57
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.0.2/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.0.2/libexec/lib/cli.js:103:13
