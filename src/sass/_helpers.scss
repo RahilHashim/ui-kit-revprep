@@ -1,0 +1,29 @@
+// Floats
+.pull-left{ float: left !important; }
+.pull-right{ float: right !important; }
+
+// Margins
+.margin__less { margin: 0px; }
+.margin__less-top {margin-top: 0px; }
+.margin__less-right {margin-rigth: 0px; }
+.margin__less-bottom {margin-bottom: 0px; }
+.margin__less-left {margin-left: 0px; }
+
+
+// Background Colors
+.bg--orange { background-color: $orange; }
+.bg--blue-dark { background-color: $dark-blue; }
+.bg--orange-medium { background-color: $medium-orange; }
+.bg--orange-red { background-color: $dark-orange; }
+.bg--blue-lights { background-color: $light-blue; }
+.bg--blue { background-color: $blue; }
+.bg--blue-medium { background-color: $medium-blue; }
+.bg--taupe-light { background-color: $light-taupe}
+.bg--taupe-medium { background-color: $medium-taupe}
+.bg--taupe-dark { background-color: $dark-taupe}
+.bg--grey-light { background-color: $light-grey}
+.bg--grey-medium { background-color: $medium-grey}
+.bg--grey-dark { background-color: $dark-grey}
+.bg--white { background-color: $white}
+
+

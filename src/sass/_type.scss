@@ -17,14 +17,14 @@ h1 {
 
 h1 { font-size: 40px; }
 h2 { font-size: 36px; }
-h3 { font-size: 36px; }
+h3 { font-size: 30px; }
 h4 { font-size: 23px; }
 
 // Header Tag Classes
-.h1 { font-size: 70px; }
-.h2 { font-size: 60px; }
-.h3 { font-size: 50px; }
-.h4 { font-size: 40px; }
+.h1 { font-size: 40px; }
+.h2 { font-size: 36px; }
+.h3 { font-size: 30px; }
+.h4 { font-size: 23px; }
 
 // Paragraph 
 p {
@@ -44,5 +44,5 @@ a {
 }
 // Link Hover
 a:hover {
-	background-color: $medium-orange;
+	color: $medium-orange;
 }
