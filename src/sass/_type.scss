@@ -1,12 +1,12 @@
 // BASE
 html, body{
-  font-size: 20px;
+  font-size: 16px;
   color: $black;
   font-family: $font;
 }
 
 // Headers
-h1 h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: $font;
   color: $black;
 }
@@ -28,21 +28,18 @@ h4 { font-size: 23px; }
 .h4 { font-size: 23px; }
 
 // Paragraph 
-p {
+p, li, ul, a, {
 	font-family: $font;
-	font-size: 20px;
+	font-size: 16px;
+	text-decoration: none;
+	color: $black;
 }
+
 
 // Footnotes, Captions, Breadcrumbs, Lorem 
-.note { font-size: 12px; }
+.note { font-size: 12px; color: $black; }
 
-// Link 
-a {
-	font-size: 20px;
-	font-weight: normal;
-	font-family: $font;
-	color: $orange;
-}
+
 // Link Hover
 a:hover {
 	color: $medium-orange;

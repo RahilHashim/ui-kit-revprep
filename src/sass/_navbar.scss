@@ -1,0 +1,68 @@
+// TOP NAV 
+
+.navbar--top {
+	background-color: $dark-blue;
+	height: 50px;
+}
+
+.navtop {
+	margin: 0px;
+	padding: 10px;
+}
+
+
+ul.navtop li {
+	display: inline;
+	font-size: 20px;
+}
+
+ul.navtop li+li:before {
+	content: "|";
+	color: $white;
+	padding: 2px; 
+}
+
+ul.navtop li a {
+	color: $white;
+	text-decoration: none;
+}
+
+
+// MAIN NAVBAR 
+
+.navbar--main {
+	background-color: $white;
+	height: auto;
+}
+
+li.nav_item a:hover {
+	color: $orange;
+	border: 3px solid $orange;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+.nav_link{
+	color: $medium-grey;
+	list-style: none;
+	margin: 10px 0px 0px;
+}
+
+.nav_item {
+	margin-left: 15px;
+}
+
+.logo{
+	width: 20%;
+}
+
+.nav__bar{
+	padding: 20px;
+	height: auto;
+}
+
+.margin-left{
+	margin-left: 10px;
+} 
+
