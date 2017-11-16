@@ -3836,3 +3836,12 @@ div {
   }
 }
 
+.btn--orange {
+  background-color: #FF8000;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
