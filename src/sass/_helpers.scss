@@ -14,7 +14,7 @@
 .bg--orange { background-color: $orange; }
 .bg--blue-dark { background-color: $dark-blue; }
 .bg--orange-medium { background-color: $medium-orange; }
-.bg--orange-red { background-color: $dark-orange; }
+.bg--orange-dark { background-color: $dark-orange; }
 .bg--blue-lights { background-color: $light-blue; }
 .bg--blue { background-color: $blue; }
 .bg--blue-medium { background-color: $medium-blue; }
@@ -27,3 +27,8 @@
 .bg--white { background-color: $white}
 
 
+// Box
+.box {
+  height: 50px;
+  width: 50px;
+}
