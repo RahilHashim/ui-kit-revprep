@@ -3057,6 +3057,7 @@ html,
 body {
   font-size: 20px;
   color: #0E1821;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 h2,
@@ -3080,7 +3081,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h4 {
@@ -3096,7 +3097,7 @@ h4 {
 }
 
 .h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .h4 {
@@ -3140,7 +3141,7 @@ a:hover {
 }
 
 .margin__less-right {
-  margin-rigth: 0px;
+  margin-right: 0px;
 }
 
 .margin__less-bottom {
@@ -3167,7 +3168,7 @@ a:hover {
   background-color: #952800;
 }
 
-.bg--blue-lights {
+.bg--blue-light {
   background-color: #66B6FF;
 }
 
@@ -3836,12 +3837,38 @@ div {
   }
 }
 
-.btn--orange {
-  background-color: #FF8000;
-  height: 50px;
+.btn {
+  height: auto;
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
-  padding-right: 25px;
-  padding-left: 25px;
+  text-align: center;
+  padding: 15px 25px;
+  margin: 10px;
+}
+
+.btn--orange {
+  background-color: #FF8000;
+}
+
+.btn--orange-dark {
+  background-color: #952800;
+}
+
+.btn--blue-dark {
+  background-color: #131F3F;
+}
+
+.btn--blue {
+  background-color: #147EFF;
+}
+
+.btn--grey-medium {
+  color: #888888;
+  border: 2px solid;
+  border-color: #888888;
+}
+
+.btn-grey {
+  background-color: #888888;
 }
 

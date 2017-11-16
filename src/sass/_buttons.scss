@@ -1,8 +1,34 @@
-.btn--orange {
-	background-color: $orange;
-	height: 50px;
+.btn {
+	height: auto;
 	font-family: $font;
 	color: $white;
-	padding-right: 25px;
-	padding-left: 25px;
+	text-align: center;
+	padding: 15px 25px;
+	margin: 10px;
+}
+
+.btn--orange {
+	background-color: $orange;
+}
+
+.btn--orange-dark {
+	background-color: $dark-orange;
+}
+
+.btn--blue-dark {
+	background-color: $dark-blue;
+}
+
+.btn--blue {
+	background-color: $blue;
+}
+
+.btn--grey-medium {
+	color: $medium-grey;
+	border: 2px solid;
+	border-color: $medium-grey;
+}
+
+.btn-grey {
+	background-color: $medium-grey;
 }
