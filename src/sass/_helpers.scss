@@ -30,10 +30,21 @@
 .bg--grey-dark { background-color: $dark-grey}
 .bg--white { background-color: $white}
 
-
-// Type Color
-.type--grey-medium {color: $medium-grey; }
-
+// Text Colors 
+.text--orange { color: $orange; }
+.text--blue-dark { color: $dark-blue; }
+.text--orange-medium { color: $medium-orange; }
+.text--orange-dark { color: $dark-orange; }
+.text--blue-light { color: $light-blue; }
+.text--blue { color: $blue; }
+.text--blue-medium { color: $medium-blue; }
+.text--taupe-light { color: $light-taupe}
+.text--taupe-medium { color: $medium-taupe}
+.text--taupe-dark { color: $dark-taupe}
+.text--grey-light { color: $light-grey}
+.text--grey-medium { color: $medium-grey}
+.text--grey-dark { color: $dark-grey}
+.text--white { color: $white}
 
 // Box
 .box {

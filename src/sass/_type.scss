@@ -35,6 +35,12 @@ p, li, ul, a, {
 	color: $black;
 }
 
+.p, .li, .ul, .a, {
+	font-family: $font;
+	font-size: 16px;
+	text-decoration: none;
+	color: $black;
+}
 
 // Footnotes, Captions, Breadcrumbs, Lorem 
 .note { font-size: 12px; color: $black; }
