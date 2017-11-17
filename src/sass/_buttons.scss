@@ -32,3 +32,19 @@
 .btn-grey {
 	background-color: $medium-grey;
 }
+
+
+.btn--orange-outline{
+	background-color: $orange;
+	border: 2px solid $orange;
+	color: $white;
+}
+
+a.btn {
+	height: auto;
+	font-family: $font;
+	color: $white;
+	text-align: center;
+	padding: 15px 25px;
+	margin: 10px;
+}

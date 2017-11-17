@@ -4,7 +4,6 @@
   bottom: 0;
   top: 0;
   left: 0;
-  padding: 10px;
   z-index: -5;
 }
 
@@ -14,7 +13,7 @@
   min-height: 175px;
   color: white;
   padding: 30px;
-  width: 100%;
+  width: 100%;;
   background-color: $light-taupe;
 
   @media (min-width: 320px) and (max-width: 741px ) {

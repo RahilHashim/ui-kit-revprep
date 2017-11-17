@@ -33,39 +33,73 @@
 </div>
 <!-- End Nav -->
 
-<!-- Form -->
-<div class="section">
-	<div class="container">
-		<div class="row">
-<div class="col-md-12">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
-</div>
-</div>
-</div>
-<!-- Form -->
 
 <!-- My Form -->
-<div class="section">
+<div class="section main--fullpage">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
        	<u><h1>Forms</h1></u>
+
+
+       <div class="form">
+
+					<div class="row">
+	           <div class="col-sm-4">
+	             <label for="email_label"></label>
+	             <input type="email" id="ex1" name="email_label" placeholder="Email">
+	           </div>
+	         </div>
+
+	         <div class="row">
+	           <div class="col-sm-4">
+	             <label for="email_label">Email Label</label>
+	             <input type="email" id="ex1" name="email_label" placeholder="">
+	           </div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4">
+							 <label for="field_focus">Field Focus</label>
+							 <input type="email" id="field_focus" name="field_focus" placeholder="info@revolutionprep.com">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4">
+							<button class="btn btn--orange-outline">SUBMIT</button>
+						</div>
+					</div>
+
+
+					<div class="dropdown">
+					  <button onclick="myFunction()" class="dropbtn">Select a Grade</button>
+					  <div id="myDropdown" class="dropdown-content">
+					    <a href="#" value="2">2nd Grade</a>
+					    <a href="#" value="3">3rd Grade</a>
+					    <a href="#" value="4">4th Grade</a>
+					    <a href="#" value="5">5th Grade</a>
+					  </div>
+					</div>
+
+
+
+
+
+
+
+         </div>
+       </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
        	
 
 
@@ -73,7 +107,83 @@
 <!-- End Form -->
 
 <footer>
+<div class="footer">
+	<div class="footer-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-2">
+					<p class="text--grey-medium"><b>COMPANY</b></p>
+					<ul class="list--unstyle">
+						<li class="text--grey-medium">About</li>
+						<li class="text--grey-medium">Blog</li>
+						<li class="text--grey-medium">Careers</li>
+						<li class="text--grey-medium">Contact</li>
+						<li class="text--grey-medium">FAQ</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="text--grey-medium"><b>SERVICES</b></p>
+					<ul class="list--unstyle">
+						<li class="text--grey-medium">Semi-Private Tutoring</li>
+						<li class="text--grey-medium">Private Tutoring</li>
+						<li class="text--grey-medium">Test Prep</li>
+						<li class="text--grey-medium">Academic Subjects</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="text--grey-medium"><b>RESOURCES</b></p>
+					<ul class="list--unstyle">
+						<li class="text--grey-medium">Grade Guides</li>
+						<li class="text--grey-medium">Webinars</li>
+						<li class="text--grey-medium">Practice Exam</li>
+						<li class="text--grey-medium">Special Events</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="text--grey-medium"><b>PARTNERS</b></p>
+					<ul class="list--unstyle">
+						<li class="text--grey-medium">Mock Exams</li>
+						<li class="text--grey-medium">Find Your School</li>
+						<li class="text--grey-medium">Become A Partner</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="text--grey-medium"><b>SUBSCRIBE</b></p>
+					<ul class="list--unstyle">
+						<li class="text--grey-medium">FORMS HERE SUBSCRIBE HERE</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </footer>
 <script src="dist/js/app.js"></script>
+
+<script type="text/javascript">
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 </body>
 </html>

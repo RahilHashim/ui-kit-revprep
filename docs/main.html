@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Footer | REV PREP TEST</title>
+  <title>Buttons | REV PREP TEST</title>
   <link rel="stylesheet" href="../dist/css/app.css" type="text/css">
 </head>
 <body>
@@ -33,79 +33,58 @@
 </div>
 <!-- End Nav -->
 
-<!-- Footer -->
+<!-- Buttons -->
 <div class="section main--fullpage">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<u><h1 class="h5">Footer</h1></u>
-				<div class="footer">
-					<div class="footer-wrapper">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12">
-									
-									<div class="col-md-2">
-										<p class="text--grey-medium"><b>COMPANY</b></p>
-										<ul class="list--unstyle">
-											<li class="text--grey-medium">About</li>
-											<li class="text--grey-medium">Blog</li>
-											<li class="text--grey-medium">Careers</li>
-											<li class="text--grey-medium">Contact</li>
-											<li class="text--grey-medium">FAQ</li>
-										</ul>
-									</div>
-									<div class="col-md-3">
-										<p class="text--grey-medium"><b>SERVICES</b></p>
-										<ul class="list--unstyle">
-											<li class="text--grey-medium">Semi-Private Tutoring</li>
-											<li class="text--grey-medium">Private Tutoring</li>
-											<li class="text--grey-medium">Test Prep</li>
-											<li class="text--grey-medium">Academic Subjects</li>
-										</ul>
-									</div>
-									<div class="col-md-2">
-										<p class="text--grey-medium"><b>RESOURCES</b></p>
-										<ul class="list--unstyle">
-											<li class="text--grey-medium">Grade Guides</li>
-											<li class="text--grey-medium">Webinars</li>
-											<li class="text--grey-medium">Practice Exam</li>
-											<li class="text--grey-medium">Special Events</li>
-										</ul>
-									</div>
-									<div class="col-md-2">
-										<p class="text--grey-medium"><b>PARTNERS</b></p>
-										<ul class="list--unstyle">
-											<li class="text--grey-medium">Mock Exams</li>
-											<li class="text--grey-medium">Find Your School</li>
-											<li class="text--grey-medium">Become A Partner</li>
-										</ul>
-									</div>
+				<u><h1 class="h5">TEST</h1></u>	
+					
+		       <div class="form">
 
-									<div class="col-md-3">
-										<p class="text--grey-medium"><b>SUBSCRIBE</b></p>
-										<ul class="list--unstyle">
-											<li class="text--grey-medium">FORMS HERE SUBSCRIBE HERE</li>
-										</ul>
-									</div>
-								</div>
-								<hr>
-								<div class="container">
-									<div class="row">
-										<div class="col-md-12">
-											<p class=text--grey-medium>&copy 2017 Revolution Prep.</p>
-										</div>
-									</div>
+
+							<div class="row">
+			           <div class="col-sm-4">
+			             <label for="email_label"></label>
+			             <input type="email" id="ex1" name="email_label" placeholder="Name">
+			           </div>
+			         </div>
+
+
+							<div class="row">
+								<div class="col-sm-4">
+									 <input type="email" id="field_focus" name="field_focus" placeholder="info@revolutionprep.com">
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
+
+
+							<div class="dropdown">
+							  <button onclick="myFunction()" class="dropbtn">Select a Grade</button>
+							  <div id="myDropdown" class="dropdown-content">
+							    <a href="#" value="2">2nd Grade</a>
+							    <a href="#" value="3">3rd Grade</a>
+							    <a href="#" value="4">4th Grade</a>
+							    <a href="#" value="5">5th Grade</a>
+							  </div>
+							</div>
+
+
+							<div class="row">
+								<div class="col-sm-4">
+									<button class="btn btn--orange-outline">SUBMIT</button>
+								</div>
+							</div>
+
+
+			      </div>
+
+
 			</div>
 		</div>
 	</div>
 </div>
-<!-- End Footer -->
+
+<!-- End Buttons -->
 
 <footer>
 <div class="footer">
@@ -156,18 +135,33 @@
 					</ul>
 				</div>
 				</div>
-
-<hr>
-
 			</div>
 		</div>
 	</div>
 </div>
-
-
-
-
 </footer>
 <script src="dist/js/app.js"></script>
+<script type="text/javascript">
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
