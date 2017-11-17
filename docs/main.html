@@ -51,8 +51,8 @@
 					<div class="section">
 						<div class="row">
 							<div class="col-sm-4">
-								 <label for="field_focus"></label>
-								 <input type="email" maxlength="50" id="field_focus" name="field_focus" placeholder="info@revolutionprep.com">
+								 	<label for="field_focus"></label>
+								 	<input type="email" maxlength="50" id="field_focus" name="field_focus" placeholder="info@revolutionprep.com">
 							</div>
 						</div>
 					</div>
@@ -74,16 +74,17 @@
 					<div class="section">
 						<div class="row">
 							<div class="col-sm-4">
-								<a href="thankyou.html"><button type="submit" class="btn btn--orange-outline">SUBMIT</button></a>
+								<button type="submit" class="btn btn--orange-outline">SUBMIT</button>
 							</div>
 						</div>
 					</div>
+					<a href="grid.html"><button class="btn btn--blue-dark pull-right">View Grid</button></a>
 				 </div>
 				</div>
       </div>
     </div>
   </div>
-</div>    
+</div>   
 <!-- End Buttons -->
 
 <footer>
@@ -140,28 +141,6 @@
 	</div>
 </div>
 </footer>
-<script src="dist/js/app.js"></script>
-<script type="text/javascript">
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+<script src="../dist/js/app.js"></script>
 </body>
 </html>
